@@ -46,22 +46,21 @@ body{
 
 header {
     background-image: linear-gradient(to bottom, var(--cor1), #424242db 90%);
-    text-align: center;
-    padding: 25px;
-    padding-bottom: 60px;
+    text-align: center;    
     color: white;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.648);
 }
 
 header > h1 {
     font-family: var(--font-destaque);
-    padding-bottom: 15px;
-    font-size: 60px;
+    font-size: 8vw;
+    padding-top: 50px;
 }
 
 header > p {
     margin-left: 10px;
     margin-right: 10px;
+    padding-bottom: 50px;
 }
 
 /* Barra de Navegação do Site */
@@ -107,7 +106,7 @@ main > article {
 
 main h1 {
     font-family: 'Nunito';
-    font-size: 30px;
+    font-size: 35px;
 }
 
 main h2 {
@@ -160,28 +159,38 @@ main p.meio {
 
 main img{
     width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+main img#bar {
+    max-width: 500px;
+    display: block;
+    margin: auto;
+    
 }
 
 /* Vídeo do Site */
 
 main div#video {
     background-color: var(--cor1);
-    height: 300px;
+    margin: 30px -25px 30px -25px;
     padding: 20px;
+    padding-bottom: 57.9%;
     position: relative;
-    background-size: 100% 100%;
-    border-radius: 15px;
-    
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.515);
 }
 
-main iframe {
+div#video > iframe {
     position: absolute;
-    background-size: 100% 100%;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-    max-width: 700px;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    
 }
 
 /* Rodapé do Site */
